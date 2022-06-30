@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Lato";
+    font-weight: 700;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato400";
+    src: url(../fonts/Lato-Bold.ttf);
+    font-weight: 400;
+}
+.header{
+    width: 1440px;
+    height: 1024px;
+    background-color: #fff;
+}
+.header>.navigation{
+    margin-left: 120px;
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    width: 1200px;
+
+}
+.header>.navigation>span>img{
+    padding-left: 5.7px;
+}
+.header>.navigation>#line{
+    position: absolute;
+    left: 1200px;
+    top: 44px;
+}
+.header>.navigation>.nav-list{
+    list-style: none;
+    width: 350px;
+    margin-left: 650px;
+}
+.header>.navigation>.nav-list>.list-item{
+    font-family: "Lato400";
+    padding-right: 25px;
+    font-style: normal;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 22px;
+}
+.header>.navigation>.nav-list>.list-item1{
+    font-family: "Lato";
+    font-size: 18px;
+    display: inline-block;
+    padding-right: 25px;
+    letter-spacing: 0em;
+    line-height: 22px;
+
+}
+.header>.navigation>.nav-list>.list-item1>a{
+    text-decoration: none;
+    color: #003B66;
+}
+.header>.navigation>.nav-list>.list-item>a{
+    text-decoration: none;
+    color: #003B66;
+}
+.header>#img-frame>img{
+    margin-left: 525px;
+}
+.header>.content-menu{
+    display: flex;
+    margin-top: 56px;
+}
+.header>.content-menu>.card-1{
+    width: 612px;
+    margin-left: 113px;
+}
+.header>.content-menu>.card-2{
+    width: 600px;
+    height: 579px;
+}
+.header>.content-menu>.card-2>img{
+    padding-top: 38px;
+}
+.header>#retangle{
+    position: absolute;
+    top: 244px;
+}
+.header>.content-menu>.card-1>#span-text{
+    width: 610px;
+    font-family: "Lato";
+    color: #003B66;
+    font-style: normal;
+    line-height: 105px;
+    font-size: 90px;
+}
+.header>.content-menu>.card-1>p{
+    font-family: "Lato";
+    margin-top: 32px;
+    width: 407px;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: #005999;
+    line-height: 29px;
+}
+.btn-group{
+    margin-top: 89px;
+}
+.btn{
+    width: 156px;
+    background: linear-gradient(264.88deg, #004A80 0.72%, #002C4D 99.28%);
+    border-radius: 4px;
+    color: #fff;
+    height: 56px;
+    border: none;
+}
+#btn-1{
+    width: 183px;
+    height: 56px;
+    font-family: "Lato";
+    font-weight: 700;
+    background-color: #fff;
+    margin-left: 24px;
+    border: 1px solid #003B66;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #003B66;
+
+}
+#group-4>img{
+    position: absolute;
+    left: 563px;
+    top: 580px;
+}
